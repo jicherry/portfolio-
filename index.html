@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <meta
+      name="description"
+      content="portfolio for world-renowned software engineer chaebeen"
+    />
+    <meta name="author" content="chaebeen" />
+    <link
+      rel="shortcut icon"
+      href="images/me/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+
+    <!-- OG ( = open graph date) -->
+    <mata property="og:title" content="채빈쓰 포트폴리오" />
+    <mata property="og: type" content="website" />
+    <mata property="og: url" content="배포 후에 생성된 URL" />
+    <mata property="og: image" content="배포 후에 생성된 이미지 URL" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/ab09071e3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript -->
+    <script src="src/main.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="acceptSection">
+      <div>
+        <a class="main_home" href="index.html">chaebeen</a>
+      </div>
+      <ul class="navigation">
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#project">PROJECT</a></li>
+      </ul>
+      <ul class="nav_side">
+        <li class="velog">
+          <a
+            href="https://github.com/jicherry"
+            target="_blank"
+            title="my github link"
+            >github</a
+          >
+        </li>
+        <li class="velog">
+          <a
+            href="https://velog.io/@chaebeen125/posts"
+            target="_blank"
+            title="my velog link"
+            >velog</a
+          >
+        </li>
+      </ul>
+    </header>
+    <!-- Home -->
+    <section id="home">
+      <div class="home_container">
+        <h2>welcome,</h2>
+        <h2>my</h2>
+        <div class="pt">
+          <h2>portfol<span class="point">!</span>o</h2>
+        </div>
+      </div>
+    </section>
+    <!-- About me -->
+    <section id="about" class="section">
+      <span class="a_title">About &nbsp;Me</span>
+      <div class="about_container">
+        <div id="about_content">
+          <div class="me_content">
+            안녕하세요! 신입 웹퍼블리셔 지채빈입니다.
+            <br />저는 웹 개발과 디자인에 대한 깊은 열정을 바탕으로,<br />
+            사용자 중심의 사이트를 만드는 것을 목표로 끊임없이 성장하고
+            있습니다.<br />
+            그린컴퓨터아카데미에서 웹 개발 양성과정을 수료하였고,<br />
+            한국정보교육원에서 웹 프론트엔드 클라우드 콘솔 개발자 양성과정을
+            수료하였습니다.<br />
+          </div>
+          <div class="main-end">
+            <div class="main-wrap">
+              <div class="end__content">
+                <div class="end__content">
+                  <ul>
+                    <li class="end-shape end-shape--s">
+                      <span class="end-shape-txt">figma</span>
+                    </li>
+                    <li class="end-shape end-shape--s">
+                      <span class="end-shape-txt">css</span>
+                    </li>
+                    <li class="end-shape end-shape--s">
+                      <span class="end-shape-txt">html</span>
+                    </li>
+                    <li class="end-shape end-shape--s">
+                      <span class="end-shape-txt">react</span>
+                    </li>
+                    <li class="end-shape end-shape--s">
+                      <span class="end-shape-txt">jquery</span>
+                    </li>
+                    <li class="end-shape end-shape--m">
+                      <span class="end-shape-txt">javascript</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section id="project" class="section">
+      <span class="p_title">&nbsp;PROJECT</span>
+      <div id="project-slider" class="flicking-viewport">
+        <div class="flicking-camera">
+          <div class="project_item">
+            <div class="project_content">
+              <h2 class="project_title">SERUMKIND</h2>
+              <img
+                class="project_img"
+                src="images/work/hp2.PNG"
+                draggable="false"
+              />
+              <p class="project_text">
+                개인 작업 프로젝트로<br />
+                html, css, javascript, jquery, figma를<br />
+                활용하여 구현하였습니다.
+              </p>
+              <div class="project_btn">
+                <a
+                  href="https://www.notion.so/19602701758780389e31f7788fc2f67a"
+                  target="_blank"
+                  class="view"
+                  >자세히 보기</a
+                >
+                <a
+                  href="https://serumkind.vercel.app/"
+                  target="_blank"
+                  class="view"
+                  >사이트 방문</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project_item">
+            <div class="project_content">
+              <h2 class="project_title">MEMORY GAME</h2>
+              <img
+                class="project_img"
+                src="images/work/memoryGame.jpg"
+                draggable="false"
+              />
+              <p class="project_text">
+                javascript 학습을 위해 만든<br />
+                개인 프로젝트로 html, css, javascript<br />기술을 활용하여
+                구현하였습니다.
+              </p>
+              <div class="project_btn">
+                <a
+                  href="https://www.notion.so/memorygame-19602701758780e18928dc3c6e90085e"
+                  target="_blank"
+                  class="view"
+                  >자세히 보기</a
+                >
+                <a
+                  href="https://card-game-livid.vercel.app/"
+                  target="_blank"
+                  class="view"
+                  >사이트 방문</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project_item">
+            <div class="project_content">
+              <h2 class="project_title">EMOTION DIARY</h2>
+              <img
+                class="project_img"
+                src="images/work/emotion_diary.PNG"
+                draggable="false"
+              />
+              <p class="project_text">
+                일기에 감정까지 함께 기록할 수 있는 일기장 사이트로<br />
+                react 학습을 위해 진행한 개인 프로젝트입니다.
+              </p>
+              <div class="project_btn">
+                <a
+                  href="https://www.notion.so/emotiondiary-196027017587801a94e2d7932c380814"
+                  target="_blank"
+                  class="view"
+                  >자세히 보기</a
+                >
+                <a
+                  href="https://emotiondiary-cheabeens-projects.vercel.app/"
+                  target="_blank"
+                  class="view"
+                  >사이트 방문</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project_item">
+            <div class="project_content">
+              <h2 class="project_title">LONGINES</h2>
+              <img
+                class="project_img"
+                src="images/work/longines.PNG"
+                draggable="false"
+              />
+              <p class="project_text">
+                시계 브랜드인 LONGINES 사이트를 참고하여<br />
+                react 학습을 위해 만든 개인 프로젝트로,<br />
+                tailwind css를 활용하여 구현하였습니다.
+              </p>
+              <div class="project_btn">
+                <a
+                  href="https://www.notion.so/19602701758780e7a73bc1b8467d6b41"
+                  target="_blank"
+                  class="view"
+                  >자세히 보기</a
+                >
+                <a
+                  href="https://longines.vercel.app/"
+                  target="_blank"
+                  class="view"
+                  >사이트 방문</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project_item">
+            <div class="project_content">
+              <h2 class="project_title">YOUTUBE</h2>
+              <img
+                class="project_img"
+                src="images/work/youtube.jpg"
+                draggable="false"
+              />
+              <p class="project_text">
+                유튜브 오픈 api를 이용해서 실제 유튜브<br />데이터로 만든 유튜브
+                클론 코딩 사이트로 <br />
+                react 학습을 위해 진행한 프로젝트입니다.
+              </p>
+              <div class="project_btn">
+                <a
+                  href="https://www.notion.so/yotube-19602701758780bead7dce7260a89d7c"
+                  target="_blank"
+                  class="view"
+                  >자세히 보기</a
+                >
+                <a
+                  href="https://youtube-omega-pink.vercel.app/"
+                  target="_blank"
+                  class="view"
+                  >사이트 방문</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project_item">
+            <div class="project_content">
+              <h2 class="project_title">ATTENTION</h2>
+              <img
+                class="project_img"
+                src="images/work/popup.PNG"
+                draggable="false"
+              />
+              <p class="project_text">
+                현재 진행중인 프로젝트로 팝업스토어나 전시회 등<br />다양한
+                볼거리의 정보를 제공하는 사이트입니다. <br />개발자 5명과
+                퍼블리셔 1명, 총 6명의 인원으로 구성되어 있으며 <br />현재
+                디자인과 퍼블리싱 포지션을 맡고 있습니다.
+              </p>
+              <div class="project_btn">
+                <a
+                  href="https://www.notion.so/19602701758780f38b29f5d43b2b1869"
+                  target="_blank"
+                  class="view"
+                  >자세히 보기</a
+                >
+                <a href="https://noongil.org/" target="_blank" class="view"
+                  >사이트 방문</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="section">
+      <div class="footer_container">
+        <p class="footer_text">
+          작은 픽셀 하나까지 놓치지 않는 디테일로,<br />사용자가 머물고 싶은
+          웹을 구축하는 퍼블리셔가 되겠습니다. <br />감사합니다.
+        </p>
+        <div class="marquee-wrapper">
+          <div class="marquee">
+            THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK
+            YOU THANK YOU
+          </div>
+          <div class="marquee">
+            THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK YOU THANK
+            YOU THANK YOU
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Arrow up -->
+    <aside>
+      <a class="arrow-up" href="#home" title="back to top">
+        <img class="arrow_up_icon" src="/images/arrow_top.png" />
+      </a>
+    </aside>
+    <!-- Flicking 스타일 & 스크립트 -->
+    <script src="https://unpkg.com/@egjs/flicking/dist/flicking.pkgd.min.js"></script>
+  </body>
+</html>
